@@ -9,9 +9,15 @@ const nextConfig = {
   },
   images: {
     unoptimized: true,
+    remotePatterns: [
+      {
+        protocol: 'https',
+        hostname: '**',
+      },
+    ],
   },
   basePath: '/MujikenLP',
-  assetPrefix: '/MujikenLP/',
+  assetPrefix: '/MujikenLP',
   trailingSlash: true,
 }
 

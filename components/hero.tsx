@@ -13,7 +13,7 @@ export default function Hero() {
               </div>
               <div className="relative h-16 w-64 mb-4">
                 <Image
-                  src="/images/mujiken-logo.png"
+                  src="/images/logo.svg"
                   alt="Mujiken Express ロゴ"
                   fill
                   className="object-contain object-left"
@@ -38,7 +38,7 @@ export default function Hero() {
           <div className="flex items-center justify-center">
             <div className="relative h-[300px] w-full md:h-[400px] lg:h-[500px]">
               <Image
-                src="/images/mujiken-device.png"
+                src="/placeholder.jpg"
                 alt="Mujiken Express 装置"
                 fill
                 className="object-contain"
