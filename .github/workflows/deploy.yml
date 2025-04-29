@@ -1,0 +1,37 @@
+name: Deploy to GitHub Pages
+
+on:
+  push:
+    branches:
+      - main  # デフォルトブランチ名を設定（mainまたはmaster）
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout 🛎️
+        uses: actions/checkout@v3
+        
+      - name: Setup Node.js ⚙️
+        uses: actions/setup-node@v3
+        with:
+          node-version: '20'
+          cache: 'npm'
+          
+      - name: Install dependencies 📦
+        run: npm ci
+        
+      - name: Build and Export 🏗️
+        run: npm run build
+        env:
+          NEXT_PUBLIC_BASE_PATH: /${{ github.event.repository.name }}
+          
+      - name: Add .nojekyll file 📄
+        run: touch out/.nojekyll
+          
+      - name: Deploy to GitHub Pages 🚀
+        uses: JamesIves/github-pages-deploy-action@v4
+        with:
+          folder: out  # Next.jsのエクスポート出力ディレクトリ
+          branch: gh-pages  # デプロイ先のブランチ
