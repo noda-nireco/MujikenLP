@@ -25,11 +25,10 @@ export default function Specifications() {
             <TabsContent value="system" className="mt-6">
               <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
                 <div className="relative h-[400px] w-full">
-                  <Image
-                    src="/images/system-diagram.png"
+                  <img
+                    src="/MujikenLP/images/system-diagram.png"
                     alt="Mujiken Express システム構成図"
-                    fill
-                    className="object-contain"
+                    className="h-full w-full object-contain"
                   />
                 </div>
                 <div className="space-y-6">

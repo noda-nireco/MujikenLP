@@ -22,7 +22,7 @@ export default function CaseStudies() {
         <div className="mt-16 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           <Card className="overflow-hidden">
             <div className="relative h-48 w-full">
-              <Image src="/images/film-factory.png" alt="フィルム製造工場" fill className="object-cover" />
+              <img src="/MujikenLP/images/film-factory.png" alt="フィルム製造工場" className="h-full w-full object-cover" />
             </div>
             <CardContent className="p-6">
               <div className="mb-4">
@@ -48,7 +48,7 @@ export default function CaseStudies() {
 
           <Card className="overflow-hidden">
             <div className="relative h-48 w-full">
-              <Image src="/images/metal-factory.png" alt="金属板製造工場" fill className="object-cover" />
+              <img src="/MujikenLP/images/metal-factory.png" alt="金属板製造工場" className="h-full w-full object-cover" />
             </div>
             <CardContent className="p-6">
               <div className="mb-4">
@@ -74,7 +74,7 @@ export default function CaseStudies() {
 
           <Card className="overflow-hidden">
             <div className="relative h-48 w-full">
-              <Image src="/images/textile-factory.png" alt="不織布製造工場" fill className="object-cover" />
+              <img src="/MujikenLP/images/textile-factory.png" alt="不織布製造工場" className="h-full w-full object-cover" />
             </div>
             <CardContent className="p-6">
               <div className="mb-4">
