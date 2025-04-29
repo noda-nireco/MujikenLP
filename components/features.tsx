@@ -19,7 +19,7 @@ export default function Features() {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center mb-16">
             <div className="relative h-[300px] w-full">
               <Image
-                src="/images/high-speed-system.png"
+                src="/MujikenLP/images/high-speed-system.png"
                 alt="高速検査システム"
                 fill
                 className="object-contain rounded-lg"
@@ -50,7 +50,7 @@ export default function Features() {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center mb-16 md:flex-row-reverse">
             <div className="order-1 md:order-2 relative h-[300px] w-full">
               <Image
-                src="/images/detection-system.png"
+                src="/MujikenLP/images/detection-system.png"
                 alt="高精度検出システム"
                 fill
                 className="object-contain rounded-lg"
@@ -81,7 +81,7 @@ export default function Features() {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
             <div className="relative h-[300px] w-full">
               <Image
-                src="/images/user-interface.png"
+                src="/MujikenLP/images/user-interface.png"
                 alt="使いやすいインターフェース"
                 fill
                 className="object-contain rounded-lg"

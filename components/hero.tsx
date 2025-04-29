@@ -37,7 +37,7 @@ export default function Hero() {
           <div className="flex items-center justify-center">
             <div className="relative h-[300px] w-full md:h-[400px] lg:h-[500px]">
               <img
-                src="/MujikenLP/placeholder.jpg"
+                src="/MujikenLP/images/placeholder.jpg"
                 alt="Mujiken Express 装置"
                 className="h-full w-full object-contain"
               />
