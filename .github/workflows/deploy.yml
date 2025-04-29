@@ -29,7 +29,11 @@ jobs:
         run: touch out/.nojekyll
           
       - name: Deploy to GitHub Pages 🚀
-        uses: JamesIves/github-pages-deploy-action@v4
-        with:
-          folder: out  # Next.jsのエクスポート出力ディレクトリ
-          branch: gh-pages  # デプロイ先のブランチ
+        run: |
+          mkdir -p docs
+          cp -r out/* docs/
+          git config --global user.name "GitHub Actions"
+          git config --global user.email "actions@github.com"
+          git add docs
+          git commit -m "Deploy to GitHub Pages"
+          git push origin master

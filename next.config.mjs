@@ -12,6 +12,7 @@ const nextConfig = {
   },
   basePath: '/MujikenLP',
   assetPrefix: '/MujikenLP/',
+  trailingSlash: true,
 }
 
 export default nextConfig
