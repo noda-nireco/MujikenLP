@@ -12,11 +12,10 @@ export default function Hero() {
                 無地表面 品質検査装置
               </div>
               <div className="relative h-16 w-64 mb-4">
-                <Image
-                  src="/images/logo.svg"
+                <img
+                  src="/MujikenLP/images/logo.svg"
                   alt="Mujiken Express ロゴ"
-                  fill
-                  className="object-contain object-left"
+                  className="h-full w-auto object-contain object-left"
                 />
               </div>
               <h1 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">
@@ -37,12 +36,10 @@ export default function Hero() {
           </div>
           <div className="flex items-center justify-center">
             <div className="relative h-[300px] w-full md:h-[400px] lg:h-[500px]">
-              <Image
-                src="/placeholder.jpg"
+              <img
+                src="/MujikenLP/placeholder.jpg"
                 alt="Mujiken Express 装置"
-                fill
-                className="object-contain"
-                priority
+                className="h-full w-full object-contain"
               />
             </div>
           </div>
