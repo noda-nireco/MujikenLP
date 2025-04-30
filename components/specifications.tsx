@@ -49,7 +49,7 @@ export default function Specifications() {
                     <p className="text-gray-500">タッチパネル式の操作画面で、直感的な操作が可能です。</p>
                   </div>
                   <div>
-                    <h3 className="text-xl font-bold mb-2">ネットワーク連携</h3>
+                    <h3 className="text-xl font-bold mb-2">ネットワーク連携 （オプション）</h3>
                     <p className="text-gray-500">工場システムとの連携が可能で、検査データの統合管理を実現します。</p>
                   </div>
                 </div>
@@ -82,7 +82,7 @@ export default function Specifications() {
                   </TableRow>
                   <TableRow>
                     <TableCell className="font-medium">カメラ解像度</TableCell>
-                    <TableCell>4K（オプションで8K対応可能）</TableCell>
+                    <TableCell>8K, 4K</TableCell>
                   </TableRow>
                   <TableRow>
                     <TableCell className="font-medium">照明方式</TableCell>

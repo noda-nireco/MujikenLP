@@ -26,8 +26,8 @@ export default function Contact() {
                   <Phone className="h-6 w-6 text-[#009977] mt-1" />
                   <div>
                     <h3 className="text-lg font-bold">お電話でのお問い合わせ</h3>
-                    <p className="text-gray-500 mt-1">平日 9:00〜17:30</p>
-                    <p className="text-xl font-bold mt-2">03-1234-5678</p>
+                    <p className="text-gray-500 mt-1">平日 8:45〜17:30</p>
+                    <p className="text-xl font-bold mt-2">042-660-7330</p>
                   </div>
                 </div>
               </CardContent>
@@ -40,7 +40,7 @@ export default function Contact() {
                   <div>
                     <h3 className="text-lg font-bold">メールでのお問い合わせ</h3>
                     <p className="text-gray-500 mt-1">24時間受付中</p>
-                    <p className="text-xl font-bold mt-2">info@example.com</p>
+                    <p className="text-xl font-bold mt-2">info@nireco.co.jp</p>
                   </div>
                 </div>
               </CardContent>
@@ -52,8 +52,8 @@ export default function Contact() {
                   <MapPin className="h-6 w-6 text-[#009977] mt-1" />
                   <div>
                     <h3 className="text-lg font-bold">所在地</h3>
-                    <p className="text-gray-500 mt-1">本社・ショールーム</p>
-                    <p className="text-xl font-bold mt-2">〒100-0001 東京都千代田区1-1-1</p>
+                    <p className="text-gray-500 mt-1">本社</p>
+                    <p className="text-xl font-bold mt-2">〒192-8522 東京都八王子市石川町2951-4</p>
                   </div>
                 </div>
               </CardContent>
